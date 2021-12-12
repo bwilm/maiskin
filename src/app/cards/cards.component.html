@@ -1,0 +1,35 @@
+<div class="parent d-flex flex-md-column-reverse p-5 justify-content-center flex-wrap c4">
+
+    <!-- Card -->
+<mdb-card *ngFor="let card of cards; index as i" class="col-md-3 m-5 c{{i}} text-white">
+
+    <!--Card content-->
+    <mdb-card-body class="c{{i}}">
+      <!--Title-->
+      <mdb-card-title>
+        <h4>{{card.serviceName}}</h4>
+      </mdb-card-title>
+  
+      <!--Text-->
+      <mdb-card-text class="text-white"> {{card.description}}
+      </mdb-card-text>
+  
+      <h5 style="margin-left: auto;">${{card.price}}.00</h5>
+
+    </mdb-card-body>
+  </mdb-card>
+  <!-- Card -->
+
+</div>
+<!-- Calendly inline widget begin -->
+<!-- Calendly inline widget begin -->
+<!-- Calendly inline widget begin -->
+<div class="calendar">
+  <div class="calendly-inline-widget" data-url="https://calendly.com/maiskinlashes/lash-appointment?primary_color=cf9793" style="min-width:320px;height:630px;"></div>
+</div>
+
+
+<!-- Calendly badge widget begin -->
+
+<!-- Calendly inline widget end -->
+<!-- Calendly inline widget end --><!-- Calendly inline widget end -->

@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+    .parent{
+        padding: 0px !important;
+    }
+
+    mdb-card{
+        margin: 1em !important;
+    }
+}
+
+@media(min-width:768px){
+    div.parent{ 
+        background-image: url('../../assets/MaiskinEditsv2/desktopwallpaper.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center, center;
+        z-index: 110;
+        min-height: 100vh;
+    }
+
+    div.calendar{
+        display: none;
+    }
+
+    mdb-card{
+        display: none;
+    }
+
+
+   
+}
+
+@media (min-width:768px){
+
+}
