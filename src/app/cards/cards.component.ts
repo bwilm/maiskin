@@ -12,18 +12,13 @@ export class CardsComponent implements OnInit {
 
     {
     "serviceName": 'Eyebrow Wax',
-    "price":8.00,
+    "price":80.00,
     "description":'Hot wax eyebrow hair removal '
     },
     {
     "serviceName": 'Upper Lip Hair Removal',
-    "price":6.00,
+    "price":60.00,
     "description":'Hot wax upper lip hair removal'
-    },
-    {
-    "serviceName": 'Armpit Hair Removal',
-    "price":85.00,
-    "description":'Hot wax armpit hair removal'
     },
     {
     "serviceName": 'Classic Extension Refill',
