@@ -3,3 +3,9 @@
         display: none;
     }
 }
+
+@media(min-width:390px){
+    mdb-carousel{
+        max-width: 100%;
+    }
+}

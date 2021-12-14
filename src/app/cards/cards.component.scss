@@ -1,15 +1,42 @@
 @media (max-width: 768px) {
-    .parent{
+    .card-parent{
         padding: 0px !important;
+        max-width: 100%;
+
+    }
+
+    mdb-card{
+        margin: 0.5em !important;
+        max-width: 350px !important;
+        min-width: 350px !important;
+    }
+
+    .calendar{
+        justify-content: unset;
+    }
+}
+
+@media (min-width: 390px)
+{
+
+    .card-parent{
+        padding: 0px !important;
+        flex-direction: column !important;
     }
 
     mdb-card{
         margin: 1em !important;
+     
     }
+
+
 }
 
+@media screen and (min-width: 410px){
+    mdb-card{max-width: 408px !important;}
+}
 @media(min-width:768px){
-    div.parent{ 
+    div.card-parent{ 
         background-image: url('../../assets/MaiskinEditsv2/desktopwallpaper.png');
         background-size: contain;
         background-repeat: no-repeat;
@@ -30,6 +57,3 @@
    
 }
 
-@media (min-width:768px){
-
-}

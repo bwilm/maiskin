@@ -16,4 +16,27 @@
     background-color: #CF9894;
 }
 
+html{
+    min-height: 100%;
+}
 
+
+
+@media screen and (min-width: 390px){
+    .app-parent{
+        max-width: 410px;
+        overflow: hidden;
+    }
+}
+// @media(min-width: 768px){
+//     .app-parent{
+//         max-width: 800px;
+//         overflow: hidden;
+//     }
+// }
+
+@media screen and (min-width: 410px){
+    .app-parent{
+        max-width: unset;
+    }
+}
